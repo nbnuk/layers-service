@@ -7,9 +7,9 @@
     <div class="inner">
         <nav id="breadcrumb">
             <ol>
-                <li><a href="http://www.ala.org.au">Home</a></li> 
+                <li><a href="https://nbnatlas.org">Home</a></li>
                 <li><a href="/">Mapping &#038; analysis</a></li> 
-                <li><a href="../../layers/">Spatial Layers</a></li> 
+                <li><a href="https://layers.nbnatlas.org/ws/layers/">Spatial Layers</a></li>
                 <li class="last">Layer information</li>
             </ol>
         </nav>
@@ -120,7 +120,7 @@
                     <tr>
                         <td class="title">View in spatial portal :</td>
                         <td>
-                           <a href="http://spatial.ala.org.au/?layers=${layer.name}">Click to view this layer</a>
+                           <a href="https://spatial.nbnatlas.org/?layers=${layer.name}">Click to view this layer</a>
                         </td>
                     </tr>                    
                     

@@ -20,7 +20,7 @@ taglib uri="/tld/ala.tld" prefix="ala" %>
 
         <p>
             These webservices provide spatial search capabilities. These services are in addition to occurrence searching
-            services available. For a full listing of services go to at <a href="http://api.ala.org.au">api.ala.org.au</a>
+            services available. For a full listing of services go to at <a href="https://api.nbnatlas.org">api.nbnatlas.org</a>
             <br/>
             Please send any bug reports, suggestions for improvements or new services to:
             <strong>developers 'AT' ala.org.au</strong>

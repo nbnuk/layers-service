@@ -7,7 +7,7 @@
     <div class="inner">
         <nav id="breadcrumb">
             <ol>
-                <li><a href="http://www.ala.org.au">Home</a></li>
+                <li><a href="https://nbnatlas.org">Home</a></li>
                 <li><a href="/">Mapping &#038; analysis</a></li>
                 <li class="last">Spatial Layers</li>
             </ol>
@@ -15,7 +15,7 @@
         <section id="content-search">
             <h1>Spatial layers</h1>
 
-            <p>Following are a list of ALA Spatial web services.</p>
+            <p>Following are a list of NBN Spatial web services.</p>
         </section>
     </div>
     <!--inner-->
