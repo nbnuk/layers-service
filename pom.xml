@@ -35,8 +35,8 @@
             <groupId>au.org.ala</groupId>
             <artifactId>layers-store</artifactId>
             <version>1.3</version> <!-- RR was -SNAPSHOT -->
-            <!--exclusions> <exclusion> <groupId>postgresql</groupId> <artifactId>postgresql</artifactId>
-                </exclusion> </exclusions -->
+            <!-- <exclusions> <exclusion> <groupId>postgresql</groupId> <artifactId>postgresql</artifactId>
+                </exclusion> </exclusions> -->
 		</dependency>
 		<!-- <dependency> <groupId>au.org.ala.spatial</groupId> <artifactId>utilities</artifactId> 
 			<version>1.0-SNAPSHOT</version> </dependency> -->
