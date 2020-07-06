@@ -128,7 +128,8 @@ class BatchConsumerThread extends Thread {
                     pointSamples = layerIntersectDao.sampling(points, 2);
                 } else {
                     IntersectCallback callback = new ConsumerCallback(id);
-                    sample = layerIntersectDao.sampling(fids.split(","), splitStringToDoublesArray(points, ','), callback, true); //RR ** test
+                    boolean allowBufferedShapes = Boolean.parseBoolean((new UserProperties()).getProperties().getProperty("sampling_allowbuffered", "false"));
+                    sample = layerIntersectDao.sampling(fids.split(","), splitStringToDoublesArray(points, ','), callback, allowBufferedShapes);
                 }
 
                 //convert pointSamples to string array
