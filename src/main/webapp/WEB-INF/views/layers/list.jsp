@@ -15,6 +15,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Layer list</title>
         <link rel="stylesheet" href="/alaspatial/styles/style.css" type="text/css" media="all" />
+        <script type="text/javascript" src="/layers-service/javascript/SortingTable.js"></script>
     </head>
     <body>
         <h1>Layer list</h1>
@@ -38,13 +39,13 @@
 
         <c:choose>
             <c:when test="${fn:length(layers) > 0}">
-                <table border="1">
+                <table border="1" class="sortable table-borders">
                     <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Display name</th>
+                        <th class="sortable-numeric fd-column-0"><a title="Sort on Field" href="#">ID</a></th>
+                        <th class="sortable-keep fd-column-1"><a title="Sort on Field" href="#">Name</a></th>
+                        <th class="sortable-keep fd-column-2"><a title="Sort on Field" href="#">Display name</a></th>
                         <th>Type</th>
-                        <th>Sample buffer (m)</th>
+                        <th class="sortable-numeric fd-column-3"><a title="Sort on Field" href="#">Sample buffer (m)</a></th>
                         <th>Actions</th>
                     </tr>
                     <c:forEach items="${layers}" var="layer" varStatus="status">
