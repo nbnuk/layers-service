@@ -11,6 +11,7 @@ public class MapDTO {
     String licenseVersion;
     String rights;
     String metadataUrl;
+    Integer bufferInMetres;
 
     public Boolean getAvailable() {
         return available;
@@ -83,5 +84,13 @@ public class MapDTO {
 
     public void setDataResourceName(String dataResourceName) {
         this.dataResourceName = dataResourceName;
+    }
+
+    public Integer getBufferInMetres() {
+        return bufferInMetres;
+    }
+
+    public void setBufferInMetres(Integer bufferInMetres) {
+        this.bufferInMetres = bufferInMetres;
     }
 }

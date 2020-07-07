@@ -40,9 +40,11 @@
             <c:when test="${fn:length(layers) > 0}">
                 <table border="1">
                     <tr>
+                        <th>ID</th>
                         <th>Name</th>
                         <th>Display name</th>
                         <th>Type</th>
+                        <th>Sample buffer (m)</th>
                         <th>Actions</th>
                     </tr>
                     <c:forEach items="${layers}" var="layer" varStatus="status">
@@ -51,6 +53,7 @@
                             <td>${layer.name}</td>
                             <td>${layer.displayname}</td>
                             <td>${layer.type}</td>
+                            <td>${layer.bufferInMetres}</td>
                             <td>
                                 <a href="layers/edit/${layer.id}">edit</a>
                                 <!--| <a href="layer/delete/${layer.id}">delete</a>-->

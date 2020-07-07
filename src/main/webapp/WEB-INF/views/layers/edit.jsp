@@ -190,6 +190,10 @@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
             <textarea id="notes" name="notes">${layer.notes}</textarea>
             <br />
 
+            <label>Buffer (m): ${layer.bufferInMetres}</label> <br />
+            This value can only be set using the layer ingestion script which simultaneously generates the appropriate buffered shapefile
+            <br />
+
             <label for="enabled">Enabled</label>
             <input type="checkbox" id="enabled" name="enabled" <c:if test="${layer.enabled}">checked="checked"</c:if> />
             <br />
